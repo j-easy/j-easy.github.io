@@ -22,7 +22,7 @@
 		Typed.new("#typed", {
 			stringsElement: document.getElementById('typed-strings'),
 			typeSpeed: 50,
-			backDelay: 500,
+			backDelay: 1000,
 			loop: true,
 		showCursor: false,
 			contentType: 'html',
@@ -40,7 +40,7 @@
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="http://jeasy.org"><i class="fa fa-leaf" aria-hidden="true"></i> Jeasy</a>
+					<a class="navbar-brand" href="http://jeasy.org"><i class="fa fa-lemon-o" aria-hidden="true"></i> Jeasy</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -49,6 +49,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="https://github.com/j-easy" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
 						<li><a href="https://twitter.com/takeitjeasy" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+						<li><a href="https://stackoverflow.com/tags/jeasy" target="_blank"><i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i></a></li>
+						<li><a href="https://gitter.im/j-easy" target="_blank"><i class="fa fa-comment fa-lg" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -56,10 +58,10 @@
 
 		<div class="jumbotron">
 			<h2>The simple stupid <strong><em><span id="typed"></span></em></strong> for Java.</h2>
-			<p class="lead">Jeasy is a collection of easy peasy libraries and micro-frameworks for the JVM. <br> No bullshit, no buzzwords, no feature creep, get things done.. easily!</p>
+			<p class="lead">Jeasy is a collection of easy peasy libraries and micro-frameworks for the JVM. <br> No buzzwords, no bull****, no feature creep, get things done.. easily!</p>
 			<p>
 				<a class="btn btn-lg btn-success" href="https://github.com/j-easy" target="_blank">Go get it on Github</a>
-				<a class="btn btn-lg btn-primary" href="https://twitter.com/takeitjeasy" target="_blank">or @TakeItJeasy on twitter!</a>
+				<a class="btn btn-lg btn-primary" href="https://twitter.com/takeitjeasy" target="_blank">or @TakeItJeasy on Twitter!</a>
 			</p>
 		</div>
 
@@ -73,43 +75,206 @@
 		</div>
 
 		<div class="row">
+			<div class="col-lg-12">
+				<h2><i class="fa fa-folder-open fa-lg"></i> Projects</h2>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-lg-4">
-				<h2>Easy <em>Batch</em></h2>
-				<p>No more boilerplate of reading, writing, filtering, marshalling and umarshalling data. Leave it to Easy Batch and focus on your batch app logic</p>
+				<h3>Easy <em>Batch</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-batch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>A lightweight alternative to the excellent Spring Batch framework. Easy Batch takes care of the boilerplate code
+					of reading, writing, marshalling and umarshalling data and lets you focus on your application's logic</p>
 				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-batch" target="_blank">Learn more &raquo;</a></p>
 			</div>
 			<div class="col-lg-4">
-				<h2>Easy <em>Rules</em></h2>
-				<p>Turn any POJO into a business rule with a couple of annotations. No other language to learn, write your rules in Java, and fire them in Java</p>
+				<h3>Easy <em>Rules</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-rules&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>Turn any POJO into a business rule with a couple of annotations. No other language to learn, write your rules in Java, and fire them in Java. If you like Drools, you will love Easy Rules!</p>
 				<p><a class="btn btn-default align-center" href="https://github.com/j-easy/easy-rules" target="_blank">Learn more &raquo;</a></p>
 			</div>
 			<div class="col-lg-4">
-				<h2>Easy <em>States</em></h2>
-				<p>State machines are easy to understand on a paper right? Just a bunch of states with transitions. Well, Easy States makes it easy with code as well!</p>
-				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-states" target="_blank">Learn more &raquo;</a></p>
+				<h3>Easy <em>Flows</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-flows&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>A small engine for small workflows. No complex notation or execution language to learn. All you need is 4 basic composable flows that are natural to understand and use to build powerful workflows.</p>
+				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-flows" target="_blank">Learn more &raquo;</a></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-lg-4">
-				<h2>Easy <em>Flows</em></h2>
-				<p>Tired of BPMN? Easy Flows is for you: All you need is 4 basic composable flows to build powerful workflows.</p>
-				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-flows" target="_blank">Learn more &raquo;</a></p>
+				<h3>Easy <em>States</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-states&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>State machines are easy to understand on a paper right? Just a bunch of states with transitions. Well, Easy States makes it easy with code as well!</p>
+				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-states" target="_blank">Learn more &raquo;</a></p>
 			</div>
 			<div class="col-lg-4">
-				<h2>Easy <em>Props</em></h2>
-				<p>Dont' look for properties, inject them! A property injection library that <strong>you</strong> control, not the other way around.</p>
+				<h3>Easy <em>Props</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-props&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>Don't look for properties, declare them on your objects and get them injected! Easy Props is a properties library that <strong>you</strong> control, not the other way around.</p>
 				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-props" target="_blank">Learn more &raquo;</a></p>
 			</div>
 			<div class="col-lg-4">
-				<h2>Easy <em>Jobs</em></h2>
-				<p>Non intrusive server for your daily jobs. Write your jobs and get monitoring, administration and reporting for free!</p>
+				<h3>Easy <em>Jobs</em> &nbsp; <iframe src="http://ghbtns.com/github-btn.html?user=j-easy&repo=easy-jobs&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></h3>
+				<p>Non intrusive server for your daily jobs. Write your jobs and .. that's it! You get execution, scheduling, monitoring, administration and reporting for free!</p>
 				<p><a class="btn btn-default" href="https://github.com/j-easy/easy-jobs" target="_blank">Learn more &raquo;</a></p>
 			</div>
 		</div>
 
+		<div class="row" id="philosophy">
+			<div class="col-lg-12">
+			<h2><i class="fa fa-graduation-cap fa-lg"></i> Philosophy</h2>
+				<br/>
+				<p>
+					Jeasy is a friend of <a href="http://jodd.org/" target="_blank">Jodd</a>, <a href="http://www.jcabi.com/" target="_blank">Jcabi</a> and <a href="https://commons.apache.org/" target="_blank">Apache commons</a>.
+					Our philosophy is the same as these wonderful projects: keeping things simple, stupid, easy and straightforward.
+					We do strongly believe that having multiple small and focused tools that do one thing and do it well is better than having one big swiss-knife framework that does everything.
+				</p>
+				<p>
+					We aim at developing tools that are easy to learn and use. Our goal is not to compete with existing de-facto solutions, but to provide lightweight alternatives that would be sufficient in many cases.
+					We all know we should start small right? Well, Jeasy is here to help you start small!
+				</p>
+			</div>
+		</div>
+
+		<div class="row" id="testimonials">
+			<div class="col-lg-12">
+			<h2><i class="fa fa-comments fa-lg"></i> Testimonials</h2>
+				<br/>
+				<div class="row">
+					<div class="col-md-4">
+						<blockquote>
+							<p>"I use [Easy Batch] in production (and love it)"</p>
+							<small>
+								chsFleury <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-batch/pull/250#issuecomment-254849463" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"I'm using [Easy Rules] for an IOT project at a fortune 10 company"</p>
+							<small>
+								cogito-clarus <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-rules/issues/66#issuecomment-288148468" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"We are using [Easy Batch] and we love it :)"</p>
+							<small>
+								sothavirak <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-batch/issues/123#issuecomment-155406504" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Thanks @easy_batch. You guys rock - especially your use of fluent interfaces in your APIs :-) #cleancode"</p>
+							<small>
+								NorthConcepts <span class="spacer">/</span> <a href="https://twitter.com/NorthConcepts/status/784042323910942720" target="_blank">@twitter</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Thanks for all the updates related to Spring Batch. However, I have decided to use EasyBatch"</p>
+							<small>
+								hashbrown <span class="spacer">/</span> <a href="http://stackoverflow.com/a/27473201/5019386" target="_blank">@stackoverflow</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"I went through the documentation and was impressed with your easy, lightweight, pojo based engine."</p>
+							<small>
+								jnsunkersett <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-rules/issues/101#issue-239064344" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Thanks for this nice and useful framework!"</p>
+							<small>
+								nfleury <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-batch/issues/175#issue-136383761" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"just stumbled on [Easy Rules], this is really good work!"</p>
+							<small>
+								simosentissi <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-rules/issues/2#issue-48434394" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Loving [Easy Batch] so far. Making something I'm working on very simple"</p>
+							<small>
+								zackehh_ <span class="spacer">/</span> <a href="https://twitter.com/zackehh_/status/638366831489761280" target="_blank">@twitter</a>
+							</small>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<blockquote>
+							<p>"thanks for this project. I like it a lot."</p>
+							<small>
+								Kmouille <span class="spacer">/</span> <a href="https://github.com/j-easy/easy-batch/issues/193#issue-159651713" target="_blank">@github</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Easy Batch looks pretty interesting."</p>
+							<small>
+								petrikainulaine <span class="spacer">/</span> <a href="https://twitter.com/petrikainulaine/status/691709168785461248" target="_blank">@twitter</a>
+							</small>
+						</blockquote>
+					</div>
+					<div class="col-md-4">
+						<blockquote>
+							<p>"Easy Batch looks neat."</p>
+							<small>
+								smelaatifi <span class="spacer">/</span> <a href="https://twitter.com/smelaatifi/status/614075399782420480" target="_blank">@twitter</a>
+							</small>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="Acknowledgments">
+			<div class="col-lg-12">
+				<h2><i class="fa fa-thumbs-up fa-lg"></i> Acknowledgments</h2>
+				<p>
+					<br/>
+					<table class="table table-bordered">
+						<tbody>
+							<tr>
+								<td align="center"><img src="https://raw.githubusercontent.com/wiki/j-easy/easy-batch/images/logo/intellijidea-logo.png" alt="IntelliJ IDEA"></td>
+								<td align="center"><img alt="YourKit Java Profiler" src="https://www.yourkit.com/images/yklogo.png" style="max-width:100%;"></td>
+								<td align="center"><img alt="Travis CI" src="https://cdn.travis-ci.com/images/logos/TravisCI-Full-Color-45e242791b7752b745a7ae53f265acd4.png" style="max-width:50%;"></td>
+							</tr>
+							<tr>
+								<td align="center">Many thanks to <a href="https://www.jetbrains.com/" target="_blank">JetBrains</a> for providing a free license of <a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a> to support the development of Jeasy projects</td>
+								<td align="center">Many thanks to <a href="https://www.yourkit.com/" target="_blank">YourKit, LLC</a> for providing a free license of <a href="https://www.yourkit.com/java/profiler/index.jsp" target="_blank">YourKit Profiler</a> for Jeasy projects.</td>
+								<td align="center">Many thanks to <a href="https://travis-ci.org" target="_blank">Travis CI</a> for providing a free CI service for open source projects.</td>
+							</tr>
+						</tbody>
+					</table>
+				</p>
+			</div>
+		</div>
+
 		<footer class="footer">
-			<p class="text-center">&copy; 2017 Made with a kind of pragmatism by <a href="http://benas.github.io" target="_blank">Mahmoud Ben Hassine</a> and some <a href="">awesome</a> <a href="">contributors</a></p>
+			<p class="text-center">&copy; 2017 Made with a lot of <strike>dogmatism</strike> pragmatism by <a href="http://benas.github.io" target="_blank">Mahmoud Ben Hassine</a> and some really
+				<a href="https://github.com/j-easy/easy-batch#awesome-contributors" target="_blank">awesome</a>
+				<a href="https://github.com/j-easy/easy-rules#awesome-contributors" target="_blank">contributors</a>.</p>
+			<p class="text-center">Jeasy projects are free, open source and released under the terms of the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
 		</footer>
 
 	</div>
