@@ -1963,6 +1963,7 @@ legend {
   line-height: 30px;
   color: inherit;
   padding: 10px 15px;
+  font-size: 25px;
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
   color: inherit;
@@ -1988,8 +1989,8 @@ legend {
 }
 .navbar .navbar-nav > li > a .material-icons,
 .navbar .navbar-nav > li > a .fa {
-  font-size: 20px;
-  max-width: 20px;
+  font-size: 30px;
+  max-width: 30px;
 }
 .navbar .navbar-nav > li > a:not(.btn-just-icon) .fa {
   position: relative;
@@ -3553,7 +3554,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .main-raised {
-  margin: -120px 30px 20px;
+  margin: -300px 80px 20px;
   border-radius: 6px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
@@ -3654,7 +3655,7 @@ h2.title {
   height: 100vh;
 }
 .landing-page .header .container {
-  padding-top: 26vh;
+  padding-top: 20vh;
   color: #FFFFFF;
 }
 .landing-page .header .share {
